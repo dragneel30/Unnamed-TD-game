@@ -1,6 +1,8 @@
 # Unnamed-TD-game
 A simple TD game written using C++ and SFML library
 
+heres the link where you can download the game: http://www.filedropper.com/showdownload.php/debug_23
+
 The game is basically finished, im plannning to make a new project again.
 
 what's unfinished here is adding more towers, adding more enemies (theres only 1 tower and 1 enemy type here) , enemy hp, tower damage, and balancing the game and also menu which im too lazy to do now.
