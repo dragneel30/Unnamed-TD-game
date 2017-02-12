@@ -3,7 +3,9 @@ A simple TD game written using C++ and SFML library
 
 The game is basically finished, im plannning to make a new project again.
 
-what's unfinished here is adding more towers, adding more enemies, and balancing the game and also menu which im too lazy to do now.
+what's unfinished here is adding more towers, adding more enemies (theres only 1 tower and 1 enemy type here) , and balancing the game and also menu which im too lazy to do now.
+
+
 
 if you see lots of literal values in codes, i used them for testing only.
 
@@ -39,3 +41,4 @@ it means it will spawn 200 bandits in first wave and 500 bandits in second wave
 each enemy will spawn with 1 second interval
 each wave will start with 5 second interval
 
+use "bandit" only because as i said earlier theres only 1 type of enemy here.
