@@ -78,6 +78,7 @@ class InGame : public FileLoader
                 shop.setBoundary(boundaries[SHOP]);
                 shop.arrangeProducts(boundaries[INFORMATION]);
                 alert.setInfoBoundary(boundaries[INFORMATION]);
+                currentInformation.setInfoBoundary(boundaries[INFORMATION]);
             }
             fOpener.close();
         }
