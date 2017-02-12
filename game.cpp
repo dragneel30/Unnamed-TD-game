@@ -44,7 +44,6 @@ void Game::render()
 {
     gameWindow.clear();
     gameWindow.draw(mManager.getCurrMap());
-    if ( !iGame.isDone() )
-        iGame.draw();
+    iGame.draw();
     gameWindow.display();
 }
