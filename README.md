@@ -32,6 +32,7 @@ bandit
 
 500
 
+one newline only. you can follow the format in the txt file there. 
 
 it means it will respawn 200 bandits in first wave, with 1 second interval per spawn.
 and 500 bandits in second wave, with 1 second interval per spawn
