@@ -25,9 +25,13 @@ you can click tower and enemy to see its info.
 you can edit the enemywave.txt to edit the waves of enemies with this format:
 
 bandit
+
 200
+
 bandit 
+
 500
+
 
 it means it will respawn 200 bandits in first wave, with 1 second interval per spawn.
 and 500 bandits in second wave, with 1 second interval per spawn
