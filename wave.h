@@ -57,7 +57,11 @@ class Wave : public FileLoader
             info.setText("Wave: " + s.str());
             return enemyWaves[currWave];
         }
-
+        
+        bool isAllWaveFinished()
+        {
+            return currWave >= enemyWaves.size()-1;
+        }
 
         void setInfoPosition(const sf::Vector2f& pos)
         {
