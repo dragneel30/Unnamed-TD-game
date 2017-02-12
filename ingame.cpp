@@ -51,7 +51,8 @@ void InGame::update(double delta)
                     isGameOver = true;
                     return;
                 }
-                currWave = wave.getNextWave();
+                else if ( !wave.isAllWaveFinished() )
+                  currWave = wave.getNextWave();
             }
         }
         for ( int a = 0; a < enemies.size(); a++ )
