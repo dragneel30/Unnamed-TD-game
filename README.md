@@ -3,7 +3,7 @@ A simple TD game written using C++ and SFML library
 
 The game is basically finished, im plannning to make a new project again.
 
-what's unfinished here is adding more towers, adding more enemies (theres only 1 tower and 1 enemy type here) , and balancing the game and also menu which im too lazy to do now.
+what's unfinished here is adding more towers, adding more enemies (theres only 1 tower and 1 enemy type here) , enemy hp, tower damage, and balancing the game and also menu which im too lazy to do now.
 
 
 
