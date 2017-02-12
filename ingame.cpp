@@ -45,7 +45,7 @@ void InGame::update(double delta)
         {
             if ( timerForWave.getElapsedTime().asSeconds() >= wave.timePerWave )
             {
-                if ( wave.isAllWaveFinished() )
+                if ( wave.isAllWaveFinished() && enemies.size() <= 0 )
                 {
                     currentInformation.setText("all wave is finished!");
                     isGameOver = true;
